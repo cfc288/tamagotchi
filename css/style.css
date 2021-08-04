@@ -1,0 +1,69 @@
+body {
+    background-color: pink;
+}
+
+
+
+#shell{
+    background-color:lightskyblue;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 100px;
+    padding-top: 50px;
+  }
+  
+  #screen{
+    background-color:white;
+    height: 450px;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+  
+  #buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-right: 0px;  
+  }
+  
+  #left-feed {
+    margin-right: 0;
+    background-color: white;
+  }
+  
+  #middle-sleep {
+    margin-right: 0;
+    background-color: white;
+  }
+
+  #right-play {
+      margin-left: 0;
+      background-color: white;
+  }
+  
+  .button {
+    height: 100px;
+    width: 100px;
+    
+    margin-top: 30px;
+    list-style: none;
+    border-radius: 100px;
+    text-align: center;
+  }
+
+
+.imgContainer {
+position: absolute;
+top: 400px;
+right: 650px;
+}
+
+  #pet {
+      
+      width: 100px;
+      height: 100px;
+      
+  }
