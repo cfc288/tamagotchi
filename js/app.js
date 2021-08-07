@@ -61,13 +61,18 @@ class Tamagotchi {
     lightsOut() {
         //change background to dark blue (w/ nightsky pic?)
         //  darkBG.getElementsByClassName.backgroundcolor = 'navy'
-
-        this.boredom += 1
-        this.sleepy -= 5
-        this.age += 1
-        this.hunger += 2
+        if(this.sleepy > 0 ) {
+            this.boredom += 1
+            this.sleepy -= 5
+            this.age += 1
+            this.hunger += 2
+                if(this.sleepy < 0) {
+                    this.sleepy = 0
+                }
+        
 
         console.log('sleepy:', this.sleepy, ' age:', this.age, ' hunger:',this.hunger, ' boredom:', this.boredom)
+    }
     }
 
     
